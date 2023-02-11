@@ -19,9 +19,9 @@ public class Main extends Application {
 
 
     public static void main(String[] args) {
-       // DBConnection.startConnection();
+       DBConnection.startConnection();
         launch(args);
-       // DBConnection.closeConnection();
+       DBConnection.closeConnection();
     }
 }
 
